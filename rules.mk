@@ -22,7 +22,7 @@ git.branch := $(shell git rev-parse --abbrev-ref HEAD)
 git.commit := $(shell git rev-parse HEAD)
 
 registry.location := gcr
-registry.gcr := us.gcr.io/daisy-284300/kn-fn
+registry.gcr := us.gcr.io/daisy-284300/asu
 # registry.github := 
 registry = $(registry.$(registry.location))
 
